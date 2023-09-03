@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/world/ground-grassTop.png"
+    />
+    <link rel="stylesheet" href="./style/start.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/tools.css" />
+    <link rel="stylesheet" href="./style/inventory.css" />
+    <title>MineCraft|2D</title>
+  </head>
+
+  <body>
+    <section class="start-game">
+      <div class="logo"></div>
+      <div class="tutorial">
+        <div class="tutorial-explanation">
+          <div class="tutorial-icon"></div>
+          <p>You need to pick a tool</p>
+        </div>
+        <div class="tutorial-explanation">
+          <div class="tutorial-icon"></div>
+          <p>Use the tool to take off a tile from the screen</p>
+        </div>
+        <div class="tutorial-explanation">
+          <div class="tutorial-icon"></div>
+          <p>You can place the tile back wherever you want</p>
+        </div>
+      </div>
+
+      <div class="btn-start">
+        <div class="btn-design">
+          <span><a href=""></a></span>
+        </div>
+      </div>
+    </section>
+
+    <main class="display-none game-part">
+      <aside class="tools-bar">
+        <div class="backButton"><button>BACK</button></div>
+        <div class="choose-tool-text">Choose a tool</div>
+        <div class="tools"></div>
+
+        <div class="inventory-choosing">
+          <div class="inventory"></div>
+        </div>
+        <div class="inventory-box"></div>
+        <div class="reset-btn">
+          <div class="reset"><span>Reset</span></div>
+          <button class="reset-game-btn"></button>
+        </div>
+      </aside>
+      <div id="world" class="game-container"></div>
+    </main>
+    <img
+      class="mouse-icon display-none"
+      src="./assets/cover/transparent_picture.png"
+      alt=""
+    />
+    <script type="module" src="/scripts/main.js"></script>
+  </body>
+</html>

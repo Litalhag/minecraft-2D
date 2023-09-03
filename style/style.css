@@ -1,0 +1,165 @@
+.game-section {
+  height: 100vh;
+}
+
+.game-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 1500px;
+  /* background: url(../assets/cover/desertCover.jpg) no-repeat center center/cover; */
+  background: black;
+  position: relative;
+}
+
+.game-part.display-none {
+  display: none;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1380px;
+  /* padding: 1rem; */
+  /* padding-right: 5rem; */
+  background: white;
+}
+
+.mainDesertGround {
+  background: url(../assets/world/main-desert-ground.jpeg) no-repeat center
+    center/cover;
+}
+
+.desertGround {
+  background: url(../assets/world/desert-ground.png) no-repeat center
+    center/cover;
+}
+
+.waterRock {
+  background: url(../assets/world/rock-water.png) no-repeat center center/cover;
+}
+
+.ground {
+  background: url(../assets/world/groundpixeled.png) no-repeat center
+    center/cover;
+}
+
+.groundGrassTop {
+  background: url(../assets/world/ground-sandTop.jpeg) no-repeat center
+    center/cover;
+}
+
+.grass {
+  background: url(../assets/world/grass.png) no-repeat center center/cover;
+}
+
+.water {
+  background: url(../assets/world/water.png) no-repeat center center/cover;
+}
+
+.rock {
+  background: url(../assets/world/light-rock.png) no-repeat center center/cover;
+}
+
+.skies {
+  background: rgb(92, 154, 220);
+}
+
+.cloud {
+  background: url(../assets/world/cloud.jpeg) no-repeat center center/cover;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.tile {
+  height: 3.5rem;
+  flex: 1;
+}
+
+.tile:hover {
+  outline: 1px white solid;
+  box-sizing: border-box;
+}
+
+.backButton {
+  position: relative;
+  margin-bottom: 1rem;
+  margin-right: 16rem;
+}
+
+.backButton button {
+  background: #efefef;
+  background-image: linear-gradient(white, #ccc);
+  border: none;
+  border-radius: 0 0.25rem 0.25rem 0; /* half */
+  color: #4d4d4d;
+  font-family: 'minCraft';
+  font-size: 12px; /* half */
+  font-weight: 600;
+  height: 32px; /* half */
+  line-height: 1;
+  padding: 0.5rem 1rem 0.5rem 0.5rem; /* half */
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 1px 0 white;
+  box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.3),
+    inset -1px 0 0 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 0 rgba(0, 0, 0, 0.3),
+    inset 0 1.5px 0 0 white, 0 1.5px 1.5px -1.5px rgba(0, 0, 0, 0.24),
+    0 3px 3px -3px rgba(0, 0, 0, 0.12);
+}
+
+.backButton button:before {
+  background: #efefef;
+  background-image: linear-gradient(135deg, white, #ccc);
+  border-radius: 0.25rem;
+  bottom: 4.6px;
+  right: 2rem;
+  content: '';
+  height: 22px;
+  left: -12px;
+  position: absolute;
+  transform: rotate(50deg);
+  width: 25px;
+  z-index: -1;
+  box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.3),
+    inset 0 -1px 0 0 rgba(0, 0, 0, 0.3), inset 1.5px 0 0 0 white,
+    0 1.5px 1.5px -1.5px rgba(0, 0, 0, 0.24), 0 3px 3px -3px rgba(0, 0, 0, 0.12);
+}
+
+.backButton button:hover,
+.backButton button:focus {
+  cursor: pointer;
+  outline: none;
+  background-image: linear-gradient(white, #ddd);
+  box-shadow: inset 0 2px 0 0 dodgerblue, inset -2px 0 0 0 dodgerblue,
+    inset 0 -2px 0 0 dodgerblue, inset 0 3px 0 0 white,
+    0 6px 6px -6px rgba(0, 0, 0, 0.12), 0 9px 9px -9px rgba(0, 0, 0, 0.06);
+}
+
+.backButton button:hover:before,
+.backButton button:focus:before {
+  background-image: linear-gradient(135deg, white, #ddd);
+  box-shadow: inset 2px 0 0 0 dodgerblue, inset 0 -2px 0 0 dodgerblue,
+    inset 3px 0 0 0 white, 0 6px 6px -6px rgba(0, 0, 0, 0.12),
+    0 9px 9px -9px rgba(0, 0, 0, 0.06);
+}
+
+.backButton button:active {
+  background-image: linear-gradient(#ccc, #eee);
+  box-shadow: inset 0 2px 0 0 dodgerblue, inset -2px 0 0 0 dodgerblue,
+    inset 0 -2px 0 0 dodgerblue, inset 0 3px 3px -3px rgba(0, 0, 0, 0.3);
+}
+
+.backButton button:active:before {
+  background-image: linear-gradient(135deg, #ccc, #eee);
+  box-shadow: inset 2px 0 0 0 dodgerblue, inset 0 -2px 0 0 dodgerblue,
+    inset 3px 0 3px -3px rgba(0, 0, 0, 0.3);
+}

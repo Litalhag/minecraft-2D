@@ -1,0 +1,211 @@
+.tools-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 1rem;
+  height: 100%;
+  min-height: 88.2vh;
+  width: 13rem;
+  background: black;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  /* padding-top: 10rem; */
+  /* position: sticky; */
+  /* left: 0; */
+}
+
+.choose-tool-text {
+  font-family: minCraft;
+  color: #fff;
+  font-size: 3rem;
+  animation: glitch 1s linear infinite;
+  margin-left: 2rem;
+}
+
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.axe {
+  background: url(../assets/tools/modern-tools/modern-axe.png) no-repeat
+    center/cover;
+  /* transform: scaleX(-1); */
+}
+
+.pickaxe {
+  background: url(../assets/tools/modern-tools/modern-pickaxe.png) no-repeat
+    center/cover;
+}
+
+.shovel {
+  background: url(../assets/tools/modern-tools/modern-shovel.png) no-repeat
+    center/cover;
+}
+
+.waterPump {
+  background: url(../assets/tools/modern-tools/puping.png) no-repeat
+    center/cover;
+  padding-bottom: 0.5rem;
+}
+
+/* .url {
+  cursor: url(myBall.cur),auto;
+} */
+
+.waterPump,
+.axe,
+.pickaxe,
+.shovel {
+  width: 10.5rem;
+  height: 10.5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.waterPump,
+.axe,
+.pickaxe,
+.shovel:hover {
+  cursor: pointer;
+}
+
+.axe::before,
+.pickaxe::before,
+.shovel::before,
+.waterPump::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(225, 221, 92);
+  opacity: 0.9;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  color: black;
+  font-family: 'minCraft';
+  border-radius: 0.5rem;
+  opacity: 0; /* Tooltips are hidden by default */
+  transition: all 0.7s ease-in-out;
+  transform: scale(0);
+  pointer-events: none;
+  /* white-space: nowrap; */
+}
+
+.waterPump:hover::before,
+.axe:hover::before,
+.pickaxe:hover::before,
+.shovel:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.axe::before {
+  content: 'Axe';
+}
+
+.pickaxe::before {
+  content: 'Pickaxe';
+}
+
+.shovel::before {
+  content: 'Shovel';
+}
+
+.waterPump::before {
+  content: 'Pumping';
+}
+
+.reset {
+  position: relative;
+}
+.reset > span {
+  position: absolute;
+  top: 3.7rem;
+  left: 1.35rem;
+  font-weight: 900;
+  font-size: 2.3rem;
+  font-family: minCraft;
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+  text-shadow: 2px 2px 2px #595353;
+}
+.reset-btn {
+  cursor: pointer;
+}
+
+.reset-game-btn {
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  border: none;
+  background: red;
+  text-shadow: 0 0.3rem 0.1rem rgba(122, 17, 8, 0.8);
+  box-shadow: 0 0.8rem 0 rgb(183, 9, 0), 0 1.5rem 2rem rgba(0, 0, 0, 0.35);
+  text-transform: uppercase;
+  transition: 0.4s all ease-in;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  --webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.reset-game-btn span {
+  /* position: relative; */
+  position: absolute;
+  top: 3.7rem;
+  left: 1.35rem;
+  text-shadow: 2px 2px 2px #595353;
+  z-index: 10;
+}
+
+.pressed {
+  padding-top: 0.3rem;
+  transform: translateY(4px);
+  box-shadow: 0 0.4rem 0 rgb(183, 0, 0), 0 0.8rem 0.6rem rgba(0, 0, 0, 0.45);
+}
+
+.reset-game-btn:hover {
+  animation: reset_button_animation 0.4s infinite -0.1s;
+}
+
+.chosen-tool {
+  box-sizing: border-box;
+  animation: active_animation 0.8s infinite 0s;
+}
+
+@keyframes active_animation {
+  0% {
+    border: 0.6rem double rgb(51, 144, 17);
+  }
+  100% {
+    border: 0.6rem solid transparent;
+  }
+}
