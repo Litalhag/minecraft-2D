@@ -1,14 +1,14 @@
 # :m: Minecraft 2D :pick:
 
+## Introduction
+
+Welcome to Minecraft 2D! This game, inspired by the classic Minecraft, offers a 2D perspective to mining and collecting resources. With a rich world constructed from tiles and specialized tools, players can experience the thrill of mining in a simpler, yet engaging environment.
+
 ![Game Screenshot start game](https://github.com/Litalhag/minecraft-2D/assets/130139673/29fc6cb2-7691-463d-a7fc-36a4fe9d9a35)
 
 ![Game Screenshot game world1](https://github.com/Litalhag/minecraft-2D/assets/130139673/8d6a955e-ec03-49e5-84b7-40f6280b8a37)
 
 ![Game Screenshot game world2](https://github.com/Litalhag/minecraft-2D/assets/130139673/f58bfef7-1889-455d-8efd-1120d59b1130)
-
-## Introduction
-
-Welcome to Minecraft 2D! This game, inspired by the classic Minecraft, offers a 2D perspective to mining and collecting resources. With a rich world constructed from tiles and specialized tools, players can experience the thrill of mining in a simpler, yet engaging environment.
 
 ## Features
 
