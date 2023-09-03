@@ -1,4 +1,3 @@
-// import { Tool } from './Tools.js'
 import { toolTileInteractions } from '../Models/tool-tile-interaction.js'
 
 export class Tile {

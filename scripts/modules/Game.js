@@ -1,6 +1,5 @@
 import { GENERATE_WORLD } from '../Models/UI.js' // the textures instance of tiles
 import { Tools } from '../Models/Tools-constance.js'
-// import { toolCursors } from '../Models/Tools-constance.js'
 import { Tile } from '../modules/tile.js'
 import { Tool } from '../modules/Tools.js'
 import { Inventory } from '../modules/Inventory.js'

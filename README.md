@@ -21,10 +21,10 @@ Welcome to Minecraft 2D! This game, inspired by the classic Minecraft, offers a 
 
 There are four primary tools in the game. Each tool is specialized to remove specific types of tiles:
 
-- **Shovel**: Perfect for digging through 'mainDesertGround' and 'desertGround'.
-- **Axe**: Chop down 'grass' and 'rock' tiles.
-- **Pickaxe**: Mine through 'groundGrassTop' and 'ground'.
-- **Water Pump**: Extract from 'water', 'waterRock', and 'cloud'.
+- **Shovel**: Perfect for digging through the yellow desert ground tiles
+- **Axe**: Chop down grass and rock tiles.
+- **Pickaxe**: Mine through brown ground tiles
+- **Water Pump**: Extract from water, waterRock, and cloud tiles.
 
 ### Interactivity:
 
@@ -39,6 +39,10 @@ The game is built with a robust code architecture where each class interacts sea
 5. As you collect tiles, they will be stored in the inventory box. You can then use these tiles to reconstruct and customize your game world.
 6. Enjoy the game!
 
+## Game link:
+
+[Game Link](https://minecraft-2d-desert-edition.netlify.app/)
+
 ## Technologies Used
 
 - HTML5
@@ -49,7 +53,7 @@ The game is built with a robust code architecture where each class interacts sea
 
 To run this project locally:
 
-1. Clone the repository.
+1. Clone the repository: [Repo Link](https://github.com/Litalhag/minecraft-2D)
 2. Navigate to the project directory.
 3. Open `index.html` in your preferred browser.
 
