@@ -1,8 +1,10 @@
 # :m: Minecraft 2D :pick:
 
-![Game Screenshot](path/to/your/screenshot.png)
+![Game Screenshot start game](https://github.com/Litalhag/minecraft-2D/assets/130139673/29fc6cb2-7691-463d-a7fc-36a4fe9d9a35)
 
-_Add a screenshot of your game here for a visual preview._
+![Game Screenshot game world1](https://github.com/Litalhag/minecraft-2D/assets/130139673/8d6a955e-ec03-49e5-84b7-40f6280b8a37)
+
+![Game Screenshot game world2](https://github.com/Litalhag/minecraft-2D/assets/130139673/f58bfef7-1889-455d-8efd-1120d59b1130)
 
 ## Introduction
 
