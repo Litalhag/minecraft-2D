@@ -10,6 +10,10 @@ Welcome to Minecraft 2D! This game, inspired by the classic Minecraft, offers a 
 
 ![Game Screenshot game world2](https://github.com/Litalhag/minecraft-2D/assets/130139673/f58bfef7-1889-455d-8efd-1120d59b1130)
 
+## Game link:
+
+[Game Link](https://minecraft-2d-desert-edition.netlify.app/)
+
 ## Features
 
 ### Two-Page Gameplay:
@@ -38,10 +42,6 @@ The game is built with a robust code architecture where each class interacts sea
 4. Click on a tile to use the selected tool. Remember, each tool is designed for specific tiles.
 5. As you collect tiles, they will be stored in the inventory box. You can then use these tiles to reconstruct and customize your game world.
 6. Enjoy the game!
-
-## Game link:
-
-[Game Link](https://minecraft-2d-desert-edition.netlify.app/)
 
 ## Technologies Used
 
