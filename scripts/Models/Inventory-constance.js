@@ -8,27 +8,4 @@ export const inventoryData = {
   water: 0,
   rock: 0,
   cloud: 0,
-};
-
-//  [
-//   { type: "mainDesertGround", count: 0 },
-//   { type: "desertGround", count: 0 },
-//   { type: "waterRock", count: 0 },
-//   { type: "ground", count: 0 },
-//   { type: "groundGrassTop", count: 0 },
-//   { type: "grass", count: 0 },
-//   { type: "water", count: 0 },
-//   { type: "rock", count: 0 },
-//   { type: "cloud", count: 0 },
-//  ];
-
-/* mainDesertGround: "mainDesertGround",
-  desertGround: "desertGround",
-  waterRock: "waterRock",
-  ground: "ground",
-  groundGrassTop: "groundGrassTop",
-  grass: "grass",
-  water: "water",
-  rock: "rock",
-  skies: "skies",
-  cloud: "cloud",*/
+}
